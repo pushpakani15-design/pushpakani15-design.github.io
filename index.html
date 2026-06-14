@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pushpak Pradhan | Civil Engineer</title>
+
+<style>
+:root{
+    --black:#000000;
+    --white:#ffffff;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    background:var(--white);
+    color:var(--black);
+    font-family:Georgia, "Times New Roman", serif;
+    line-height:1.7;
+}
+
+.container{
+    width:min(1200px,90%);
+    margin:auto;
+}
+
+section{
+    padding:100px 0;
+    border-bottom:1px solid #000;
+}
+
+h1,h2,h3{
+    font-weight:400;
+}
+
+h1{
+    font-size:clamp(3rem,8vw,7rem);
+    letter-spacing:-3px;
+    line-height:0.95;
+}
+
+h2{
+    font-size:clamp(2rem,4vw,3.5rem);
+    margin-bottom:40px;
+}
+
+h3{
+    font-size:1.3rem;
+    margin-bottom:10px;
+}
+
+p{
+    font-size:1.1rem;
+    max-width:800px;
+}
+
+.hero{
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+}
+
+.hero-grid{
+    width:100%;
+}
+
+.tag{
+    display:inline-block;
+    border:1px solid #000;
+    padding:10px 18px;
+    margin-bottom:40px;
+    font-size:.9rem;
+    text-transform:uppercase;
+    letter-spacing:2px;
+}
+
+.subtitle{
+    margin-top:30px;
+    font-size:1.4rem;
+    max-width:700px;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:50px;
+}
+
+.card{
+    padding:25px 0;
+    border-top:1px solid #000;
+}
+
+ul{
+    list-style:none;
+}
+
+li{
+    margin-bottom:12px;
+    font-size:1.05rem;
+}
+
+li::before{
+    content:"— ";
+}
+
+.experience-item{
+    padding:30px 0;
+    border-top:1px solid #000;
+}
+
+.year{
+    font-size:.95rem;
+    margin-bottom:10px;
+    opacity:.8;
+}
+
+.contact{
+    display:grid;
+    gap:15px;
+}
+
+a{
+    color:#000;
+    text-decoration:none;
+}
+
+a:hover{
+    text-decoration:underline;
+}
+
+.footer{
+    padding:50px 0;
+    text-align:center;
+    font-size:.9rem;
+}
+
+.nav{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    background:#fff;
+    border-bottom:1px solid #000;
+    z-index:1000;
+}
+
+.nav-inner{
+    width:min(1200px,90%);
+    margin:auto;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:18px 0;
+}
+
+.logo{
+    font-size:1.1rem;
+    letter-spacing:1px;
+}
+
+.menu{
+    display:flex;
+    gap:25px;
+}
+
+.menu a{
+    font-size:.95rem;
+}
+
+@media(max-width:768px){
+
+.menu{
+    display:none;
+}
+
+section{
+    padding:70px 0;
+}
+
+.hero{
+    padding-top:80px;
+}
+
+.subtitle{
+    font-size:1.15rem;
+}
+}
+</style>
+</head>
+
+<body>
+
+<nav class="nav">
+    <div class="nav-inner">
+        <div class="logo">PUSHPAK PRADHAN</div>
+
+        <div class="menu">
+            <a href="#about">About</a>
+            <a href="#expertise">Expertise</a>
+            <a href="#experience">Experience</a>
+            <a href="#education">Education</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </div>
+</nav>
+
+<section class="hero">
+    <div class="container">
+        <div class="hero-grid">
+
+            <div class="tag">
+                Civil Engineer
+            </div>
+
+            <h1>
+                Designing<br>
+                Infrastructure<br>
+                That Endures.
+            </h1>
+
+            <p class="subtitle">
+                Experienced Civil Engineer specializing in structural design,
+                quantity surveying, construction management, quality control,
+                tender documentation, and project supervision.
+            </p>
+
+        </div>
+    </div>
+</section>
+
+<section id="about">
+    <div class="container">
+
+        <h2>About</h2>
+
+        <p>
+            I am Pushpak Pradhan, a Civil Engineer with professional experience
+            in building construction, structural analysis and design,
+            quantity estimation, project management, quality control,
+            and site supervision. My work focuses on transforming engineering
+            concepts into practical, durable, and efficient infrastructure solutions.
+        </p>
+
+    </div>
+</section>
+
+<section id="expertise">
+    <div class="container">
+
+        <h2>Core Expertise</h2>
+
+        <div class="grid">
+
+            <div class="card">
+                <h3>Structural Engineering</h3>
+                <ul>
+                    <li>Structural Analysis</li>
+                    <li>Building Design</li>
+                    <li>ETABS & STAAD Pro</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h3>Construction Management</h3>
+                <ul>
+                    <li>Site Supervision</li>
+                    <li>Project Coordination</li>
+                    <li>Quality Assurance</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h3>Quantity Surveying</h3>
+                <ul>
+                    <li>BOQ Preparation</li>
+                    <li>Rate Analysis</li>
+                    <li>Cost Estimation</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h3>Documentation</h3>
+                <ul>
+                    <li>Tender Documents</li>
+                    <li>Technical Reports</li>
+                    <li>Contract Documentation</li>
+                </ul>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+<section id="experience">
+    <div class="container">
+
+        <h2>Professional Experience</h2>
+
+        <div class="experience-item">
+            <div class="year">2009 – Present</div>
+            <h3>Project / Office Engineer</h3>
+            <p>
+                Amrit Nirman Sewa Pvt. Ltd.
+                Responsible for engineering design, site supervision,
+                quantity estimation, construction management,
+                road works, utility infrastructure, and project documentation.
+            </p>
+        </div>
+
+        <div class="experience-item">
+            <div class="year">2009</div>
+            <h3>Site Engineer</h3>
+            <p>
+                Commercial Complex Construction, Dharan.
+                Managed site activities, quantity estimates,
+                bar bending schedules, and supervision works.
+            </p>
+        </div>
+
+        <div class="experience-item">
+            <div class="year">2009</div>
+            <h3>Design Engineer</h3>
+            <p>
+                Ratna Consultancy.
+                Structural design, drafting, AutoCAD documentation,
+                and site engineering services.
+            </p>
+        </div>
+
+        <div class="experience-item">
+            <div class="year">Teaching Experience</div>
+            <h3>Engineering Instructor</h3>
+            <p>
+                Purwanchal Engineering Campus, Dharan.
+                Subjects: Hydropower Engineering and Hill Irrigation.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+<section id="education">
+    <div class="container">
+
+        <h2>Education & Skills</h2>
+
+        <div class="grid">
+
+            <div>
+                <h3>Education</h3>
+                <p>
+                    Bachelor of Civil Engineering<br>
+                    Institute of Engineering (IOE)<br>
+                    Pulchowk Campus<br>
+                    Tribhuvan University
+                </p>
+            </div>
+
+            <div>
+                <h3>Software Skills</h3>
+                <ul>
+                    <li>AutoCAD</li>
+                    <li>ETABS</li>
+                    <li>STAAD Pro</li>
+                    <li>MS Project</li>
+                    <li>SketchUp</li>
+                    <li>Microsoft Office</li>
+                </ul>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+<section id="contact">
+    <div class="container">
+
+        <h2>Contact</h2>
+
+        <div class="contact">
+            <p>Email: pushpak_pdn@hotmail.com</p>
+            <p>Phone: +977 9842436303</p>
+            <p>Phone: +977 9804310346</p>
+            <p>Location: Kathmandu, Nepal</p>
+        </div>
+
+    </div>
+</section>
+
+<div class="footer">
+    © 2026 Pushpak Pradhan — Civil Engineer
+</div>
+
+</body>
+</html>
